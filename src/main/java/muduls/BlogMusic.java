@@ -18,5 +18,9 @@ public class BlogMusic {
     private NhacSy nhacSy;
     @ManyToOne
     private CaSy caSy;
+    @ManyToOne
+    private TheLoai theLoai;
+    @ManyToOne
+    private Person person;
 
 }
