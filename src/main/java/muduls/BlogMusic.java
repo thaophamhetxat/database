@@ -9,6 +9,7 @@ public class BlogMusic {
     int idBlog;
     String fileMusic;
     String fileImage;
+    String tenBaiHat;
     private double price;
     int views;
     int likes;
